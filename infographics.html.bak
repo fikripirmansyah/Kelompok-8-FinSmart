@@ -1,0 +1,98 @@
+<!DOCTYPE html> <html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>FinSmart — Infografis</title> <link rel="icon" type="image/png" href="assets/logo-finsmart.png" />
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="nav-wrap">
+<nav class="nav container">
+<a class="brand" href="index.html"> <img class="brandLogo" src="assets/logo-finsmart.png" alt="FinSmart" /> <span class="brandText"><span class="brandMark">Fin</span><span class="brandMark2">Smart</span></span> </a>
+<div class="nav-links" id="navLinks">
+<a class="nav-link" data-nav="home" href="index.html">Home</a>
+<a class="nav-link" data-nav="features" href="features.html">Fitur</a>
+<a class="nav-link" data-nav="modules" href="modules.html">Modul</a>
+<a class="nav-link" data-nav="calculator" href="calculator.html">Kalkulator</a>
+<a class="nav-link" data-nav="videos" href="video.html">Video</a>
+<a class="nav-link" data-nav="infographics" href="infographics.html">Infografis</a>
+<a class="nav-link" data-nav="security" href="keamanan.html">Keamanan</a>
+<a class="nav-link" data-nav="gamification" href="gamification.html">Quiz</a>
+</div>
+<button aria-label="Buka menu" class="nav-burger" id="burger"><span></span><span></span><span></span></button>
+</nav>
+</header>
+<main class="container page-wrap">
+<section class="section">
+<div class="panel hero-card reveal">
+<div class="badge">Infografis</div>
+<h1 class="section-title">Ringkasan Cepat Financial Technology</h1>
+<p class="section-desc">Infografis merangkum konsep penting Financial Technology dalam format visual agar mudah dipahami dan diingat. Anda bisa melihat poin-poin inti seperti jenis layanan Financial Technology, manfaat bagi pengguna, serta hal-hal yang perlu diperhatikan terkait keamanan data dan risiko.<br/><br/>Gunakan infografis ini sebagai “cheat sheet” sebelum mengerjakan quiz atau saat ingin mengulang materi dengan cepat tanpa harus membaca seluruh modul dari awal.</p>
+</div>
+<div class="hr"></div>
+<div class="panel hero-card reveal">
+<div class="badge">Infografis Utama</div>
+<h2 class="h2">Financial Technology</h2>
+<p class="muted desc-wide">Infografis ini merangkum Financial Technology secara menyeluruh: mulai dari definisi dan jenis layanannya (pembayaran digital, pinjaman, investasi, asuransi, hingga layanan pendukung UMKM), contoh aktivitas yang sering ditemui sehari‑hari, dampak positif bagi akses dan efisiensi keuangan, serta risiko yang perlu diwaspadai seperti penipuan, pencurian data, dan penyalahgunaan identitas. Anda juga akan melihat tips keamanan praktis dan gambaran peran pengawasan agar penggunaan Financial Technology tetap aman, bertanggung jawab, dan sesuai regulasi.</p>
+<div style="margin-top:16px">
+<img alt="Infografis Financial Technology" src="assets/images/infografis-fintech.png" style="width:100%; max-width:1100px; margin:auto; display:block; border-radius:18px; border:1px solid rgba(229,193,120,.18);"/>
+</div>
+<div class="grid grid-2">
+<div class="card reveal section-card">
+<div class="icon">📈</div>
+<div style="font-weight:900;color:var(--gold2);margin-bottom:6px">Perkembangan Financial Technology</div>
+<div class="muted">Tren adopsi digital meningkat seiring kebutuhan transaksi cepat &amp; aman.</div>
+<div class="hr"></div>
+<div class="cta-row"><a class="btn primary" href="modules.html">Lihat Modul</a></div>
+</div>
+<div class="card reveal">
+<div class="icon">🛡️</div>
+<div style="font-weight:900;color:var(--gold2);margin-bottom:6px">Alur transaksi digital</div>
+<div class="muted">User → Otorisasi → Proses → Konfirmasi → Riwayat. Fokus keamanan &amp; privasi.</div>
+<div class="hr"></div>
+<div class="cta-row"><a class="btn primary" href="modules.html">Belajar Keamanan</a></div>
+</div>
+<div class="card reveal">
+<div class="icon">💵</div>
+<div style="font-weight:900;color:var(--gold2);margin-bottom:6px">Tunai vs Digital</div>
+<div class="muted">Digital unggul kecepatan &amp; rekam jejak, tunai unggul akses offline.</div>
+<div class="hr"></div>
+<div class="cta-row"><a class="btn primary" href="features.html">Lihat Fitur</a></div>
+</div>
+<div class="card reveal">
+<div class="icon">🌍</div>
+<div style="font-weight:900;color:var(--gold2);margin-bottom:6px">Dampak ke masyarakat</div>
+<div class="muted">Inklusi keuangan, efisiensi, namun perlu edukasi risiko &amp; keamanan.</div>
+<div class="hr"></div>
+<div class="cta-row"><a class="btn primary" href="gamification.html">Uji Literasi</a></div>
+</div>
+</div>
+<div class="hr"></div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-grid">
+<div><div class="footer-title">FinSmart</div><p class="muted">Platform edukasi fintech untuk meningkatkan literasi keuangan masyarakat modern.</p></div>
+<div><div class="footer-title">Navigasi</div>
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="features.html">Fitur</a>
+<a href="modules.html">Modul</a>
+<a href="calculator.html">Kalkulator</a>
+<a href="video.html">Video</a>
+<a href="infographics.html">Infografis</a>
+<a href="keamanan.html">Keamanan</a>
+<a href="gamification.html">Quiz</a>
+</div>
+</div>
+<div><div class="footer-title">Kontak</div><p class="muted">Email: hello@finsmart.id</p><p class="muted">IG: @finsmart.id</p></div>
+</div>
+<div class="container footer-bottom">
+<span class="muted">Disclaimer: <em>Konten bersifat edukatif, bukan nasihat keuangan.</em></span>
+<span class="muted">© <span id="year"></span> FinSmart</span>
+</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

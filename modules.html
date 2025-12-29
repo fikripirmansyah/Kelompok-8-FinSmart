@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+ <html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>FinSmart — Modul</title> <link href="assets/logo-finsmart.png" rel="icon" type="image/png"/>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="nav-wrap">
+<nav class="nav container">
+<a class="brand" href="index.html"> <img alt="FinSmart" class="brandLogo" src="assets/logo-finsmart.png"/> <span class="brandText"><span class="brandMark">Fin</span><span class="brandMark2">Smart</span></span> </a>
+<div class="nav-links" id="navLinks">
+<a class="nav-link" data-nav="home" href="index.html">Home</a>
+<a class="nav-link" data-nav="features" href="features.html">Fitur</a>
+<a class="nav-link" data-nav="videos" href="video.html">Video</a>
+<a class="nav-link" data-nav="calculator" href="calculator.html">Kalkulator</a>
+<a class="nav-link" data-nav="modules" href="modules.html">Modul</a>
+<a class="nav-link" data-nav="infographics" href="infographics.html">Infografis</a>
+<a class="nav-link" data-nav="security" href="keamanan.html">Keamanan</a>
+<a class="nav-link" data-nav="gamification" href="gamification.html">Quiz</a>
+</div>
+<button aria-label="Buka menu" class="nav-burger" id="burger"><span></span><span></span><span></span></button>
+</nav>
+</header>
+<main class="container page-wrap">
+<section class="section">
+<div class="panel hero-card reveal">
+<div class="badge">Modul Pembelajaran</div>
+<h1 class="section-title">Materi Pembelajaran</h1>
+<p class="section-desc">Mulai dari <strong>Video Pembelajaran</strong> untuk memahami gambaran besar, lalu lanjutkan ke modul-modul di bawah untuk pendalaman materi secara bertahap lengkap dengan contoh penerapan.</p>
+<div class="section-actions">
+<a class="btn primary" href="video.html">Tonton Video Pengantar</a>
+<a class="btn" href="gamification.html">Mulai Quiz</a>
+<a class="btn navy" href="infographics.html">Ringkasan Infografis</a>
+</div>
+</div>
+<div class="hr"></div>
+<div class="two-col reveal">
+<div class="panel hero-card">
+<div class="badge">Filter</div>
+<div class="section-actions">
+<button class="btn" onclick="filterModules('Semua')">Semua</button>
+<button class="btn" onclick="filterModules('Pemula')">Pemula</button>
+<button class="btn" onclick="filterModules('Menengah')">Menengah</button>
+<button class="btn" onclick="filterModules('Lanjutan')">Lanjutan</button>
+</div>
+</div>
+<div class="panel hero-card">
+<div class="badge">Cari Modul</div>
+<input class="search" id="searchMod" oninput="searchModules(this.value)" placeholder="Cari modul…"/>
+<style> .search{ width:100%; padding:12px 12px; border-radius:14px; border:1px solid rgba(215,181,109,.16); background: rgba(15,20,27,.55); color: var(--text); outline:none; } .search:focus{box-shadow: 0 0 0 1px rgba(215,181,109,.28) inset} </style>
+</div>
+</div>
+<div class="hr"></div>
+<div class="grid" id="modulesGrid">
+<div class="card reveal" data-level="Pemula" data-progress="12" data-title="Apa Itu Financial Technology Pengenalan konsep Financial Technology, latar belakang kemunculan, dan perannya dalam sistem keuangan digital.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">📚</div>
+<div>
+<div class="card-title">Apa Itu Financial Technology</div>
+</div>
+</div>
+<div class="module-desc">Pengenalan konsep Financial Technology, latar belakang kemunculan, dan perannya dalam sistem keuangan digital.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Pemula</span><span>12%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1CA_4WC_nLynD7fWVgJTDZwk3WLxSHKJAdlHR7Ysbe6c/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+<div class="card reveal" data-level="Pemula" data-progress="26" data-title="Jenis-Jenis Financial Technology &amp; Contoh Penjelasan berbagai jenis layanan Financial Technology beserta contoh penerapannya dalam kehidupan sehari-hari.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">📚</div>
+<div>
+<div class="card-title">Jenis-Jenis Financial Technology &amp; Contoh</div>
+</div>
+</div>
+<div class="module-desc">Penjelasan berbagai jenis layanan Financial Technology beserta contoh penerapannya dalam kehidupan sehari-hari.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Pemula</span><span>26%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1r0DTIjdRpbUPVanuQ5D3r5FlH2fURNj4g994BbGtHjA/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+<div class="card reveal" data-level="Menengah" data-progress="38" data-title="Keamanan Digital &amp; Privasi Edukasi mengenai pentingnya keamanan data, privasi pengguna, dan penggunaan layanan digital secara bijak.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">🛡️</div>
+<div>
+<div class="card-title">Keamanan Digital &amp; Privasi</div>
+</div>
+</div>
+<div class="module-desc">Edukasi mengenai pentingnya keamanan data, privasi pengguna, dan penggunaan layanan digital secara bijak.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Menengah</span><span>38%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1TBD2hvKEI-u8lMYBTSRwbF437DD4pccYWyHz0BUOmrI/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+<div class="card reveal" data-level="Pemula" data-progress="44" data-title="Dompet Digital (Digital E-Wallet) Pembahasan tentang fungsi, manfaat, dan penggunaan dompet digital dalam transaksi non-tunai.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">👛</div>
+<div>
+<div class="card-title">Dompet Digital (Digital Wallet)</div>
+</div>
+</div>
+<div class="module-desc">Pembahasan tentang fungsi, manfaat, dan penggunaan dompet digital dalam transaksi non-tunai.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Pemula</span><span>44%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1rilyS81GtUwjYQcQkgCMGayTu5p1ASamL7G3EZEf_8Q/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+<div class="card reveal" data-level="Menengah" data-progress="21" data-title="Pinjaman Online Penjelasan mengenai konsep pinjaman online, manfaat, serta risiko yang perlu dipahami masyarakat.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">💳</div>
+<div>
+<div class="card-title">Pinjaman Online</div>
+</div>
+</div>
+<div class="module-desc">Penjelasan mengenai konsep pinjaman online, manfaat, serta risiko yang perlu dipahami masyarakat.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Menengah</span><span>21%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1jVni868G5QQg4JyKc8XWZ28f_F4Ub6x6slVy0uLifOY/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+<div class="card reveal" data-level="Lanjutan" data-progress="9" data-title="Investasi &amp; Trading Pengenalan investasi dan trading digital secara umum sebagai bagian dari perkembangan layanan keuangan berbasis teknologi.">
+<div class="card-body">
+<div class="module-header">
+<div class="icon">📊</div>
+<div>
+<div class="card-title">Investasi &amp; Trading</div>
+</div>
+</div>
+<div class="module-desc">Pengenalan investasi dan trading digital secara umum sebagai bagian dari perkembangan layanan keuangan berbasis teknologi.</div>
+</div>
+<div class="card-footer">
+<div class="module-meta"><span class="badge">Lanjutan</span><span>9%</span></div>
+<div class="progress"><div></div></div>
+<div class="section-actions">
+<a class="btn primary" href="https://docs.google.com/document/d/1Wnb6ppWfewtQ4qYehq90-rwewaYgHdfZT4GB9WFWnwU/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Pelajari Modul</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hr"></div>
+<div class="panel hero-card reveal">
+<div class="badge">Learning Path</div>
+<div class="section-title-row">
+<div>
+<h2 class="h2">Urutan belajar yang direkomendasikan</h2>
+<p class="muted desc-wide">Mulai dengan <b>Video Pengantar</b> untuk gambaran umum, lalu lanjut ke konsep dasar Financial Technology. Setelah itu, mengenal jenis layanan dan dompet digital, pahami keamanan &amp; privasi, lalu pelajari pinjaman online dan investasi. Dengan urutan ini, materi terasa nyambung, Anda paham konsep, sadar risikonya, dan siap menerapkan dalam keputusan sehari‑hari.</p>
+</div>
+</div>
+<div class="cta-center"> <a class="btn navy" href="gamification.html">Coba Quiz</a>
+</div>
+
+<div class="hr"></div>
+<div class="note">
+<b>Tip:</b> Setelah menyelesaikan semua modul, buka <b>Infografis</b> untuk rangkuman 1 menit dan cek pemahaman lewat <b>Quiz</b>. </div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-grid">
+<div><div class="footer-title">FinSmart</div><p class="muted">Platform edukasi fintech untuk meningkatkan literasi keuangan masyarakat modern.</p></div>
+<div><div class="footer-title">Navigasi</div>
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="features.html">Fitur</a>
+<a href="video.html">Video</a>
+<a href="calculator.html">Kalkulator</a>
+<a href="modules.html">Modul</a>
+<a href="infographics.html">Infografis</a>
+<a href="keamanan.html">Keamanan</a>
+<a href="gamification.html">Quiz</a>
+</div>
+</div>
+<div><div class="footer-title">Kontak</div><p class="muted">Email: hello@finsmart.id</p><p class="muted">IG: @finsmart.id</p></div>
+</div>
+<div class="container footer-bottom">
+<span class="muted">Disclaimer: <em>Konten bersifat edukatif, bukan nasihat keuangan.</em></span>
+<span class="muted">© <span id="year"></span> FinSmart</span>
+</div>
+</footer>
+<script src="main.js"></script>
+<script src="modules.js"></script>
+</body>
+</html>

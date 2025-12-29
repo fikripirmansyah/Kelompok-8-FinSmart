@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+<head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width,initial-scale=1" /> <title>FinSmart — Quiz</title> <link rel="icon" type="image/png" href="assets/logo-finsmart.png" /> <link rel="stylesheet" href="styles.css" />
+</head>
+<body> <header class="nav-wrap"> <nav class="nav container"> <a class="brand" href="index.html"> <img class="brandLogo" src="assets/logo-finsmart.png" alt="FinSmart" /> <span class="brandText"><span class="brandMark">Fin</span><span class="brandMark2">Smart</span></span> </a> <div class="nav-links" id="navLinks">
+<a class="nav-link" data-nav="home" href="index.html">Home</a>
+<a class="nav-link" data-nav="features" href="features.html">Fitur</a>
+<a class="nav-link" data-nav="videos" href="video.html">Video</a>
+<a class="nav-link" data-nav="calculator" href="calculator.html">Kalkulator</a>
+<a class="nav-link" data-nav="modules" href="modules.html">Modul</a>
+<a class="nav-link" data-nav="infographics" href="infographics.html">Infografis</a>
+<a class="nav-link" data-nav="security" href="keamanan.html">Keamanan</a>
+<a class="nav-link" data-nav="gamification" href="gamification.html">Quiz</a>
+</div> <button class="nav-burger" id="burger" aria-label="Buka menu"><span></span><span></span><span></span></button>
+</nav> </header> <main class="container page-wrap"> <section class="section"> <div class="panel hero-card reveal"> <div class="badge">Quiz</div> <div class="section-badge">Gamifikasi</div>
+<h1 class="section-title">Belajar Jadi Lebih Seru</h1> <p class="section-desc">Setelah belajar dari <strong>Video</strong> dan <strong>Modul</strong>, uji pemahaman Anda lewat kuis interaktif. Skor dan umpan balik membantu Anda mengetahui bagian mana yang sudah dikuasai dan mana yang perlu diulang.</p> <div class="cta-row"> <button class="btn primary" id="btnPemula">Mulai Quiz</button> <button class="btn" id="btnMenengah">Level Menengah</button> <button class="btn navy" id="btnLanjutan">Level Lanjutan</button> </div> </div> <div class="hr"></div> <div class="panel hero-card reveal"> <div class="badge">Highlight Quiz</div> <div class="quiz-top"> <div class="kpi"> <div class="pill"><b>10</b> Soal / Level</div> <div class="pill"><b>Feedback</b> + Penjelasan</div> <div class="pill"><b>Badge</b> Unlock</div> </div> </div> <div class="panel quiz-wrap reveal"> <div class="quiz-top"> <div> <div class="badge">Level</div> <h2 class="h2" id="quizLevelTitle">Pilih level untuk mulai</h2> <p class="muted" id="quizHint">Tip: gunakan 50/50 &amp; Hint dengan bijak untuk mengamankan skor.</p> </div> <div class="kpi"> <div class="pill">Skor: <b id="score">0</b></div> <div class="pill">Streak: <b id="streak">0</b></div> <div class="pill">Soal: <b id="idx">0</b>/<b id="total">0</b></div> </div> <div class="quiz-timer" id="timerWrap"><span>⏱</span><span class="time" id="time">30</span>s</div> </div> <div class="quiz-progress" aria-label="Progress quiz"><div></div></div> <div class="lifelines"> <button class="btn" id="btn5050" disabled>50/50</button> <button class="btn" id="btnHint" disabled>Hint</button> </div> <div class="quiz-box" id="quizBox"> <div class="muted">Klik tombol level di atas untuk mulai quiz.</div> </div> <div class="quiz-footer"> <div id="badge" class="muted">Badge: -</div> <div class="cta-row"> <button class="btn" id="btnReset">Reset</button> <a class="btn primary" href="modules.html">Belajar Dulu</a> </div> </div> </div> </div> </section> </main> <footer class="footer"> <div class="container footer-grid"> <div><div class="footer-title">FinSmart</div><p class="muted">Platform edukasi fintech untuk meningkatkan literasi keuangan masyarakat modern.</p></div> <div><div class="footer-title">Navigasi</div> <div class="footer-links">
+<a href="index.html">Home</a>
+<a href="features.html">Fitur</a>
+<a href="video.html">Video</a>
+<a href="calculator.html">Kalkulator</a>
+<a href="modules.html">Modul</a>
+<a href="infographics.html">Infografis</a>
+<a href="keamanan.html">Keamanan</a>
+<a href="gamification.html">Quiz</a>
+</div> </div> <div><div class="footer-title">Kontak</div><p class="muted">Email: hello@finsmart.id</p><p class="muted">IG: @finsmart.id</p></div> </div> <div class="container footer-bottom"> <span class="muted">Disclaimer: <em>Konten bersifat edukatif, bukan nasihat keuangan.</em></span> <span class="muted">© <span id="year"></span> FinSmart</span> </div> </footer> <script src="main.js"></script> <script src="quiz.js"></script>
+</body>
+</html>
